@@ -1,0 +1,150 @@
+html{
+    background-color: rgb(153, 0, 0);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background-color:rgb(24, 24, 24);
+    padding: 1rem 2rem;
+    align-items: center;
+    height: auto;
+    display: flex;
+
+    justify-content: space-between;
+
+    
+}
+
+.logo{
+    max-width: 150px;
+    height: auto;
+}
+
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+
+    padding-right: 5vw;
+    margin: 0;
+    list-style: none;
+}
+
+.link-navbar{
+    text-decoration: none;
+    color:rgb(219, 219, 219)
+
+}
+
+.d-block{
+    border-radius: 20px;
+    object-fit: cover;
+
+    max-width: 180vh;
+    height: auto;
+
+}
+
+.carrousel-container{
+
+    margin: 0 3rem 3 rem 3rem;
+
+    padding: 3rem;
+
+}
+
+.slogan
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    
+    
+}
+
+.slogan-beginning, .slogan-back{
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+.slogan-back{
+    color: rgb(219, 0, 0);
+}
+
+.slogan-middle{
+font-family:'Bebas Neue', sans-serif;
+font-size:larger;
+}
+
+.card{
+    max-width: 20vw;
+    height: auto;
+    
+    object-fit: contain;
+    padding: 5px;
+}
+
+.container-ofertas{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:3rem 0 0 0;
+
+
+
+}
+
+.card-text{
+    font-size: 100%;
+}
+
+.eventos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+
+    font-family: "Raleway";
+}
+
+.evento-imagen{
+    
+    max-width: 50vw;
+    height: auto;
+    object-fit: contain;
+
+    border-radius: 1rem;
+}
+
+.subscribe{
+
+    margin-top:5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form
+{
+    background-color:rgb(24, 24, 24);
+    padding: 3rem;
+    border-radius: 2rem;
+
+    color:rgb(219, 219, 219);
+
+    width: 50vw;
+}
+
+.btn-primary
+{
+    background-color: rgb(219, 0, 0) !important;
+    border-color: rgb(219, 0, 0) !important;
+}
